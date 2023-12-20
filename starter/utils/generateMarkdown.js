@@ -10,22 +10,19 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
-  
+  ## Section entitled
   ## Description
   ${data.description}
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#Usage)
-  * [Features](#features)
   * [Contributors](#contributors)
   * [Testing](#testing)
   * [Questions](#questions)
   ## Installation
   ${data.installation}
-  ## Usage:
+  ## Usage
   ${data.usage}
-  ## Features
-  ${data.features}
   ## Contributors
   ${data.contributors}
   ## Testing
