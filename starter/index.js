@@ -34,7 +34,7 @@ const questions = [ {
     type: "input",
     name: "usage",
     message:
-      "Briefly describe how to use the application.",
+      "Briefly describe the usage of the application.",
   },
   {
     type: "input",
