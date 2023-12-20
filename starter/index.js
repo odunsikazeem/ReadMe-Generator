@@ -7,12 +7,17 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [ {
     type: "input",
     name: "title",
-    message: "Please name your Project.",
+    message: "What is the title of the application?",
   },
   {
     type: "input",
     name: "description",
     message: "Please describe the purpose and functionality of this project.",
+  },
+  {
+    type: "input",
+    name: "installation",
+    message: "Please describe how to install this application.",
   },
   {
     type: "checkbox",
@@ -29,7 +34,7 @@ const questions = [ {
     type: "input",
     name: "usage",
     message:
-      "State the languages or technologies associated with this project.",
+      "Briefly describe how to use the application.",
   },
   {
     type: "input",
@@ -44,13 +49,13 @@ const questions = [ {
   {
     type: "input",
     name: "contributors",
-    message: "Please list any contributors. (Use GitHub usernames)",
+    message: "Please list any contributors.",
     default: "",
   },
   {
     type: "input",
     name: "test",
-    message: "Provide walkthrough of required tests if applicable.",
+    message: "How can a user test the application?",
   },
 
 ];
